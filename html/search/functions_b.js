@@ -1,0 +1,11 @@
+var searchData=
+[
+  ['usedinbox',['UsedInBox',['../fase1_8c.html#a14aaf095291b58ed8bd7400b10592940',1,'UsedInBox(int **grid, int boxStartRow, int boxStartCol, int num):&#160;fase1.c'],['../fase1_8h.html#ad2cb3ef76be2732a3bf232d357a2b49c',1,'UsedInBox(int **, int boxStartRow, int boxStartCol, int num):&#160;fase1.c']]],
+  ['usedinbox_5ff2',['UsedInBox_f2',['../fase2_8c.html#a3d7188a7c8fc6b1d49ab258ae9e28876',1,'UsedInBox_f2(GRID *grid, int boxStartRow, int boxStartCol, int num):&#160;fase2.c'],['../fase2_8h.html#a3d7188a7c8fc6b1d49ab258ae9e28876',1,'UsedInBox_f2(GRID *grid, int boxStartRow, int boxStartCol, int num):&#160;fase2.c']]],
+  ['usedincol',['UsedInCol',['../fase1_8c.html#a8cd9a67ed31d8465e32c06dc6a29ee3d',1,'UsedInCol(int **grid, int col, int num):&#160;fase1.c'],['../fase1_8h.html#add6ce50d5116dd536223faabb1cc34e4',1,'UsedInCol(int **, int col, int num):&#160;fase1.c']]],
+  ['usedincol_5ff2',['UsedInCol_f2',['../fase2_8c.html#acb67b98ae6f332d386aa6fbad6647430',1,'UsedInCol_f2(GRID *grid, int col, int num):&#160;fase2.c'],['../fase2_8h.html#acb67b98ae6f332d386aa6fbad6647430',1,'UsedInCol_f2(GRID *grid, int col, int num):&#160;fase2.c']]],
+  ['usedindiagonals',['UsedInDiagonals',['../fase1_8c.html#a43c314218282e37cfa55b47cfcc4a2be',1,'UsedInDiagonals(int **grid, int row, int col, int num):&#160;fase1.c'],['../fase1_8h.html#a476fef139cf7d793a300570d5b76cf8a',1,'UsedInDiagonals(int **, int row, int col, int num):&#160;fase1.c']]],
+  ['usedindiagonals_5ff2',['UsedInDiagonals_f2',['../fase2_8c.html#ab74b005b8069a71a4f8525bdc47cb1a2',1,'UsedInDiagonals_f2(GRID *grid, int row, int col, int num):&#160;fase2.c'],['../fase2_8h.html#ab74b005b8069a71a4f8525bdc47cb1a2',1,'UsedInDiagonals_f2(GRID *grid, int row, int col, int num):&#160;fase2.c']]],
+  ['usedinrow',['UsedInRow',['../fase1_8c.html#a9be66e931a260aafca4991b302a6caa2',1,'UsedInRow(int **grid, int row, int num):&#160;fase1.c'],['../fase1_8h.html#ae858060e228e2a13a8e12601e51c16f6',1,'UsedInRow(int **, int row, int num):&#160;fase1.c']]],
+  ['usedinrow_5ff2',['UsedInRow_f2',['../fase2_8c.html#a3164765814a797e9dfbe94040fabe721',1,'UsedInRow_f2(GRID *grid, int row, int num):&#160;fase2.c'],['../fase2_8h.html#a3164765814a797e9dfbe94040fabe721',1,'UsedInRow_f2(GRID *grid, int row, int num):&#160;fase2.c']]]
+];

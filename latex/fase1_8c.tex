@@ -1,0 +1,239 @@
+\hypertarget{fase1_8c}{}\section{fase1.\+c File Reference}
+\label{fase1_8c}\index{fase1.c@{fase1.c}}
+{\ttfamily \#include \char`\"{}fase1.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{fase1_8c_a494bc499e2d1a3ac1e83f30b9306d3e6}{main\+SudokuX}} ()
+\item 
+char $\ast$ \mbox{\hyperlink{fase1_8c_a8b73808ccf04ca586e41b13398ef45e1}{concat\+Strings}} (char $\ast$path, char $\ast$path2)
+\item 
+int $\ast$ \mbox{\hyperlink{fase1_8c_a4bac00ca1b77caf5423b84f0a8e8d8c4}{read\+Number\+And\+Type\+Of\+Solutions}} (int $\ast$numero\+Tabs)
+\item 
+void \mbox{\hyperlink{fase1_8c_a0105b22e512d012a7517cb64f582648b}{write\+File\+Solu\+Grids}} (int numero\+Tabs, int $\ast$tipo)
+\item 
+int \mbox{\hyperlink{fase1_8c_aa601463622a86bc2337f703188044cc4}{compare\+With\+Solved\+Grids}} (int $\ast$$\ast$solved\+Mat, int $\ast$$\ast$unsolved\+Mat)
+\item 
+void \mbox{\hyperlink{fase1_8c_a324d1fe6032871262c9459f03755083e}{free\+Memory}} (int $\ast$$\ast$max)
+\item 
+bool \mbox{\hyperlink{fase1_8c_a8292faa8223a89b711c847f40cfd24f7}{Solve\+Sudoku}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int row, int col)
+\item 
+void \mbox{\hyperlink{fase1_8c_a17722abbfbf4ba22ea24236856eb664c}{init\+Grid\+With\+Zero}} (int $\ast$$\ast$matrix, int tipo)
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{fase1_8c_af0faf93afdb45cf81d5b04e3ce3a0c9e}{create\+Matrix}} ()
+\item 
+bool \mbox{\hyperlink{fase1_8c_a290629cd08931fb07fd1298e396ad16c}{Find\+Unassigned\+Location}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int $\ast$row, int $\ast$col)
+\item 
+bool \mbox{\hyperlink{fase1_8c_a9be66e931a260aafca4991b302a6caa2}{Used\+In\+Row}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int row, int num)
+\item 
+bool \mbox{\hyperlink{fase1_8c_a8cd9a67ed31d8465e32c06dc6a29ee3d}{Used\+In\+Col}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int col, int num)
+\item 
+bool \mbox{\hyperlink{fase1_8c_a14aaf095291b58ed8bd7400b10592940}{Used\+In\+Box}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int box\+Start\+Row, int box\+Start\+Col, int num)
+\item 
+bool \mbox{\hyperlink{fase1_8c_a43c314218282e37cfa55b47cfcc4a2be}{Used\+In\+Diagonals}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int row, int col, int num)
+\item 
+bool \mbox{\hyperlink{fase1_8c_ac06dabc81bc996e954963e3226d66185}{is\+Safe}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int row, int col, int num)
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{fase1_8c_a02977d78359a7145f94064247b10b323}{fill\+Grid\+Random}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int row, int col, int num\+\_\+values)
+\item 
+int \mbox{\hyperlink{fase1_8c_aa7423d6ca232c4fff3991de35e65f1a6}{count\+Assigned}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}})
+\item 
+void \mbox{\hyperlink{fase1_8c_a5940342bbeaa2129e28bd49fdd38fea7}{print\+Grid}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}})
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{fase1_8c_af8adac8970cfb4db7f26d08d915efb2d}{get\+Grid\+From\+File}} (char $\ast$filename, int lines, int columns, int $\ast$$\ast$mat)
+\item 
+void \mbox{\hyperlink{fase1_8c_a79a6214b8106f5744d23af9db97b786a}{write\+To\+File}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, char $\ast$filename)
+\item 
+bool \mbox{\hyperlink{fase1_8c_a2d094cd63f4bf1dcd1bb2b441d8f8de5}{number\+Exists\+Again\+In\+Row}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int row, int col, int num)
+\item 
+bool \mbox{\hyperlink{fase1_8c_a1965e807d56207b79798cf0a633b62af}{number\+Exists\+Again\+In\+Col}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int row, int col, int num)
+\item 
+bool \mbox{\hyperlink{fase1_8c_a886adccd04a44ca1b708542b0d2c1216}{number\+Exists\+Again\+In\+Box}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int row, int col, int num)
+\item 
+bool \mbox{\hyperlink{fase1_8c_a48ae55a5ffaa6b32892dec3743a6b011}{number\+Exists\+Again\+In\+Diagonals}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}}, int row, int col, int num)
+\item 
+bool \mbox{\hyperlink{fase1_8c_aeec0daec83330c6115beba75b93387ef}{check\+\_\+consistency}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}})
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{fase1_8c_a32ac50e6c6aca04eec0cbc06e2ce5f07}{single\+Number}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}})
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{fase1_8c_a2fefeabc7efc1c225c1d7d3da12248af}{hidden\+Single\+Number}} (int $\ast$$\ast$\mbox{\hyperlink{structgrid}{grid}})
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{fase1_8c_ad43c3812e6d13e0518d9f8b8f463ffcf}{count}} =0
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{fase1_8c_aeec0daec83330c6115beba75b93387ef}\label{fase1_8c_aeec0daec83330c6115beba75b93387ef}} 
+\index{fase1.c@{fase1.c}!check\_consistency@{check\_consistency}}
+\index{check\_consistency@{check\_consistency}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{check\_consistency()}{check\_consistency()}}
+{\footnotesize\ttfamily bool check\+\_\+consistency (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_aa601463622a86bc2337f703188044cc4}\label{fase1_8c_aa601463622a86bc2337f703188044cc4}} 
+\index{fase1.c@{fase1.c}!compareWithSolvedGrids@{compareWithSolvedGrids}}
+\index{compareWithSolvedGrids@{compareWithSolvedGrids}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{compareWithSolvedGrids()}{compareWithSolvedGrids()}}
+{\footnotesize\ttfamily int compare\+With\+Solved\+Grids (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{solved\+Mat,  }\item[{int $\ast$$\ast$}]{unsolved\+Mat }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a8b73808ccf04ca586e41b13398ef45e1}\label{fase1_8c_a8b73808ccf04ca586e41b13398ef45e1}} 
+\index{fase1.c@{fase1.c}!concatStrings@{concatStrings}}
+\index{concatStrings@{concatStrings}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{concatStrings()}{concatStrings()}}
+{\footnotesize\ttfamily char$\ast$ concat\+Strings (\begin{DoxyParamCaption}\item[{char $\ast$}]{path,  }\item[{char $\ast$}]{path2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_aa7423d6ca232c4fff3991de35e65f1a6}\label{fase1_8c_aa7423d6ca232c4fff3991de35e65f1a6}} 
+\index{fase1.c@{fase1.c}!countAssigned@{countAssigned}}
+\index{countAssigned@{countAssigned}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{countAssigned()}{countAssigned()}}
+{\footnotesize\ttfamily int count\+Assigned (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_af0faf93afdb45cf81d5b04e3ce3a0c9e}\label{fase1_8c_af0faf93afdb45cf81d5b04e3ce3a0c9e}} 
+\index{fase1.c@{fase1.c}!createMatrix@{createMatrix}}
+\index{createMatrix@{createMatrix}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{createMatrix()}{createMatrix()}}
+{\footnotesize\ttfamily int$\ast$$\ast$ create\+Matrix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a02977d78359a7145f94064247b10b323}\label{fase1_8c_a02977d78359a7145f94064247b10b323}} 
+\index{fase1.c@{fase1.c}!fillGridRandom@{fillGridRandom}}
+\index{fillGridRandom@{fillGridRandom}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{fillGridRandom()}{fillGridRandom()}}
+{\footnotesize\ttfamily int$\ast$$\ast$ fill\+Grid\+Random (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{row,  }\item[{int}]{col,  }\item[{int}]{num\+\_\+values }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a290629cd08931fb07fd1298e396ad16c}\label{fase1_8c_a290629cd08931fb07fd1298e396ad16c}} 
+\index{fase1.c@{fase1.c}!FindUnassignedLocation@{FindUnassignedLocation}}
+\index{FindUnassignedLocation@{FindUnassignedLocation}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{FindUnassignedLocation()}{FindUnassignedLocation()}}
+{\footnotesize\ttfamily bool Find\+Unassigned\+Location (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int $\ast$}]{row,  }\item[{int $\ast$}]{col }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a324d1fe6032871262c9459f03755083e}\label{fase1_8c_a324d1fe6032871262c9459f03755083e}} 
+\index{fase1.c@{fase1.c}!freeMemory@{freeMemory}}
+\index{freeMemory@{freeMemory}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{freeMemory()}{freeMemory()}}
+{\footnotesize\ttfamily void free\+Memory (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{max }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_af8adac8970cfb4db7f26d08d915efb2d}\label{fase1_8c_af8adac8970cfb4db7f26d08d915efb2d}} 
+\index{fase1.c@{fase1.c}!getGridFromFile@{getGridFromFile}}
+\index{getGridFromFile@{getGridFromFile}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{getGridFromFile()}{getGridFromFile()}}
+{\footnotesize\ttfamily int$\ast$$\ast$ get\+Grid\+From\+File (\begin{DoxyParamCaption}\item[{char $\ast$}]{filename,  }\item[{int}]{lines,  }\item[{int}]{columns,  }\item[{int $\ast$$\ast$}]{mat }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a2fefeabc7efc1c225c1d7d3da12248af}\label{fase1_8c_a2fefeabc7efc1c225c1d7d3da12248af}} 
+\index{fase1.c@{fase1.c}!hiddenSingleNumber@{hiddenSingleNumber}}
+\index{hiddenSingleNumber@{hiddenSingleNumber}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{hiddenSingleNumber()}{hiddenSingleNumber()}}
+{\footnotesize\ttfamily int$\ast$$\ast$ hidden\+Single\+Number (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a17722abbfbf4ba22ea24236856eb664c}\label{fase1_8c_a17722abbfbf4ba22ea24236856eb664c}} 
+\index{fase1.c@{fase1.c}!initGridWithZero@{initGridWithZero}}
+\index{initGridWithZero@{initGridWithZero}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{initGridWithZero()}{initGridWithZero()}}
+{\footnotesize\ttfamily void init\+Grid\+With\+Zero (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{matrix,  }\item[{int}]{tipo }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_ac06dabc81bc996e954963e3226d66185}\label{fase1_8c_ac06dabc81bc996e954963e3226d66185}} 
+\index{fase1.c@{fase1.c}!isSafe@{isSafe}}
+\index{isSafe@{isSafe}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{isSafe()}{isSafe()}}
+{\footnotesize\ttfamily bool is\+Safe (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{row,  }\item[{int}]{col,  }\item[{int}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a494bc499e2d1a3ac1e83f30b9306d3e6}\label{fase1_8c_a494bc499e2d1a3ac1e83f30b9306d3e6}} 
+\index{fase1.c@{fase1.c}!mainSudokuX@{mainSudokuX}}
+\index{mainSudokuX@{mainSudokuX}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{mainSudokuX()}{mainSudokuX()}}
+{\footnotesize\ttfamily int main\+SudokuX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a886adccd04a44ca1b708542b0d2c1216}\label{fase1_8c_a886adccd04a44ca1b708542b0d2c1216}} 
+\index{fase1.c@{fase1.c}!numberExistsAgainInBox@{numberExistsAgainInBox}}
+\index{numberExistsAgainInBox@{numberExistsAgainInBox}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{numberExistsAgainInBox()}{numberExistsAgainInBox()}}
+{\footnotesize\ttfamily bool number\+Exists\+Again\+In\+Box (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{row,  }\item[{int}]{col,  }\item[{int}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a1965e807d56207b79798cf0a633b62af}\label{fase1_8c_a1965e807d56207b79798cf0a633b62af}} 
+\index{fase1.c@{fase1.c}!numberExistsAgainInCol@{numberExistsAgainInCol}}
+\index{numberExistsAgainInCol@{numberExistsAgainInCol}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{numberExistsAgainInCol()}{numberExistsAgainInCol()}}
+{\footnotesize\ttfamily bool number\+Exists\+Again\+In\+Col (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{row,  }\item[{int}]{col,  }\item[{int}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a48ae55a5ffaa6b32892dec3743a6b011}\label{fase1_8c_a48ae55a5ffaa6b32892dec3743a6b011}} 
+\index{fase1.c@{fase1.c}!numberExistsAgainInDiagonals@{numberExistsAgainInDiagonals}}
+\index{numberExistsAgainInDiagonals@{numberExistsAgainInDiagonals}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{numberExistsAgainInDiagonals()}{numberExistsAgainInDiagonals()}}
+{\footnotesize\ttfamily bool number\+Exists\+Again\+In\+Diagonals (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{row,  }\item[{int}]{col,  }\item[{int}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a2d094cd63f4bf1dcd1bb2b441d8f8de5}\label{fase1_8c_a2d094cd63f4bf1dcd1bb2b441d8f8de5}} 
+\index{fase1.c@{fase1.c}!numberExistsAgainInRow@{numberExistsAgainInRow}}
+\index{numberExistsAgainInRow@{numberExistsAgainInRow}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{numberExistsAgainInRow()}{numberExistsAgainInRow()}}
+{\footnotesize\ttfamily bool number\+Exists\+Again\+In\+Row (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{row,  }\item[{int}]{col,  }\item[{int}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a5940342bbeaa2129e28bd49fdd38fea7}\label{fase1_8c_a5940342bbeaa2129e28bd49fdd38fea7}} 
+\index{fase1.c@{fase1.c}!printGrid@{printGrid}}
+\index{printGrid@{printGrid}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{printGrid()}{printGrid()}}
+{\footnotesize\ttfamily void print\+Grid (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a4bac00ca1b77caf5423b84f0a8e8d8c4}\label{fase1_8c_a4bac00ca1b77caf5423b84f0a8e8d8c4}} 
+\index{fase1.c@{fase1.c}!readNumberAndTypeOfSolutions@{readNumberAndTypeOfSolutions}}
+\index{readNumberAndTypeOfSolutions@{readNumberAndTypeOfSolutions}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{readNumberAndTypeOfSolutions()}{readNumberAndTypeOfSolutions()}}
+{\footnotesize\ttfamily int$\ast$ read\+Number\+And\+Type\+Of\+Solutions (\begin{DoxyParamCaption}\item[{int $\ast$}]{numero\+Tabs }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a32ac50e6c6aca04eec0cbc06e2ce5f07}\label{fase1_8c_a32ac50e6c6aca04eec0cbc06e2ce5f07}} 
+\index{fase1.c@{fase1.c}!singleNumber@{singleNumber}}
+\index{singleNumber@{singleNumber}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{singleNumber()}{singleNumber()}}
+{\footnotesize\ttfamily int$\ast$$\ast$ single\+Number (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a8292faa8223a89b711c847f40cfd24f7}\label{fase1_8c_a8292faa8223a89b711c847f40cfd24f7}} 
+\index{fase1.c@{fase1.c}!SolveSudoku@{SolveSudoku}}
+\index{SolveSudoku@{SolveSudoku}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{SolveSudoku()}{SolveSudoku()}}
+{\footnotesize\ttfamily bool Solve\+Sudoku (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a14aaf095291b58ed8bd7400b10592940}\label{fase1_8c_a14aaf095291b58ed8bd7400b10592940}} 
+\index{fase1.c@{fase1.c}!UsedInBox@{UsedInBox}}
+\index{UsedInBox@{UsedInBox}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{UsedInBox()}{UsedInBox()}}
+{\footnotesize\ttfamily bool Used\+In\+Box (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{box\+Start\+Row,  }\item[{int}]{box\+Start\+Col,  }\item[{int}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a8cd9a67ed31d8465e32c06dc6a29ee3d}\label{fase1_8c_a8cd9a67ed31d8465e32c06dc6a29ee3d}} 
+\index{fase1.c@{fase1.c}!UsedInCol@{UsedInCol}}
+\index{UsedInCol@{UsedInCol}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{UsedInCol()}{UsedInCol()}}
+{\footnotesize\ttfamily bool Used\+In\+Col (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{col,  }\item[{int}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a43c314218282e37cfa55b47cfcc4a2be}\label{fase1_8c_a43c314218282e37cfa55b47cfcc4a2be}} 
+\index{fase1.c@{fase1.c}!UsedInDiagonals@{UsedInDiagonals}}
+\index{UsedInDiagonals@{UsedInDiagonals}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{UsedInDiagonals()}{UsedInDiagonals()}}
+{\footnotesize\ttfamily bool Used\+In\+Diagonals (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{row,  }\item[{int}]{col,  }\item[{int}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a9be66e931a260aafca4991b302a6caa2}\label{fase1_8c_a9be66e931a260aafca4991b302a6caa2}} 
+\index{fase1.c@{fase1.c}!UsedInRow@{UsedInRow}}
+\index{UsedInRow@{UsedInRow}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{UsedInRow()}{UsedInRow()}}
+{\footnotesize\ttfamily bool Used\+In\+Row (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{row,  }\item[{int}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a0105b22e512d012a7517cb64f582648b}\label{fase1_8c_a0105b22e512d012a7517cb64f582648b}} 
+\index{fase1.c@{fase1.c}!writeFileSoluGrids@{writeFileSoluGrids}}
+\index{writeFileSoluGrids@{writeFileSoluGrids}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{writeFileSoluGrids()}{writeFileSoluGrids()}}
+{\footnotesize\ttfamily void write\+File\+Solu\+Grids (\begin{DoxyParamCaption}\item[{int}]{numero\+Tabs,  }\item[{int $\ast$}]{tipo }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{fase1_8c_a79a6214b8106f5744d23af9db97b786a}\label{fase1_8c_a79a6214b8106f5744d23af9db97b786a}} 
+\index{fase1.c@{fase1.c}!writeToFile@{writeToFile}}
+\index{writeToFile@{writeToFile}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{writeToFile()}{writeToFile()}}
+{\footnotesize\ttfamily void write\+To\+File (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{fase1_8c_ad43c3812e6d13e0518d9f8b8f463ffcf}\label{fase1_8c_ad43c3812e6d13e0518d9f8b8f463ffcf}} 
+\index{fase1.c@{fase1.c}!count@{count}}
+\index{count@{count}!fase1.c@{fase1.c}}
+\subsubsection{\texorpdfstring{count}{count}}
+{\footnotesize\ttfamily int count =0}
+

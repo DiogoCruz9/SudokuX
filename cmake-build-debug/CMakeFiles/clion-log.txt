@@ -1,0 +1,11 @@
+C:\cmake-3.16.2-win64-x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\SudokuX
+-- The C compiler identification is GNU 4.9.2
+-- Check for working C compiler: C:/Program Files (x86)/CodeBlocks/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/Program Files (x86)/CodeBlocks/MinGW/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/SudokuX/cmake-build-debug

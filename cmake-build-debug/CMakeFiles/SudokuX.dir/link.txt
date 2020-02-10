@@ -1,0 +1,3 @@
+C:\cmake-3.16.2-win64-x64\bin\cmake.exe -E remove -f CMakeFiles\SudokuX.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\SudokuX.dir/objects.a @CMakeFiles\SudokuX.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\SudokuX.dir/objects.a -Wl,--no-whole-archive  -o SudokuX.exe -Wl,--out-implib,libSudokuX.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SudokuX.dir\linklibs.rsp
